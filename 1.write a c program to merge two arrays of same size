@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() 
+{
+int arr1[6] = {1, 2, 3, 4, 5,11};
+int arr2[6] = {6, 7, 8, 9, 10,12};
+int length = sizeof(arr1) / sizeof(arr2[0]);
+int mergedArray[12];
+for (int i = 0; i < size; i++)
+{
+mergedArray[i] = arr1[i];
+}
+
+for (int i = 0; i < size; i++) 
+{
+  mergedArray[length + i] = arr2[i];
+}
+printf("Merged Array: ");
+for (int i = 0; i < 2 * length; i++) 
+  {
+ printf("%d ", mergedArray[i]);
+  }
+}
