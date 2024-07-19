@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int a=4,b=6,i,gcd;
+    for(i=1;i<=a&&i<=b;i++)
+    {
+        if(a%i==0&&b%i==0)
+        gcd=i;
+    }
+printf("the gcd of %d %d is %d",a,b,gcd);
+return 0;
+}
